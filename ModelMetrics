@@ -1,0 +1,12 @@
+Seasonal ARIMA Model for Yearly Aerospace Defense Exports
+
+Model takes in the feature variable of: 
+  Export value per month from 1992-2021
+  
+Model Parameters:
+  non-seasonal order = (1,0,2)
+  seasonal order = (0,1,1,12)
+  
+Model Results:
+  AIC = 5039.3
+  BIC = 5062.4
